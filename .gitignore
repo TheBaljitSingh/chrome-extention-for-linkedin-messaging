@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript build files
+*.js
+*.js.map
+*.d.ts
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test files
+*.spec.ts
+*.test.ts
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Ignore any other temporary files or directories
+tmp/
+temp/
