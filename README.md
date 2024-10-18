@@ -11,7 +11,7 @@ The **LinkedIn Messaging Automation Extension** is a powerful tool designed to s
 
 ## Demo
 
-*Watch the 30 sec. demo video below for a detailed walkthrough.*
+*30 Sec. DEMO Video*
 https://github.com/user-attachments/assets/3ea8ddab-2b26-4bdd-8a00-86e27661d4e5
 
 *demo image*
