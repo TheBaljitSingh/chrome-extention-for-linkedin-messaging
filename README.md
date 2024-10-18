@@ -5,8 +5,6 @@
 
 The **LinkedIn Messaging Automation Extension** is a powerful tool designed to streamline your LinkedIn messaging process. It allows users to automate repetitive messaging tasks, making it easier to connect with prospects, follow up with leads, and engage with your network without the hassle of manual typing.
 
-## Features
-
 
 
 ## Demo
@@ -31,3 +29,6 @@ https://github.com/user-attachments/assets/3ea8ddab-2b26-4bdd-8a00-86e27661d4e5
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/linkedin-messaging-extension.git
+2. Use Dist folder to upload on chrome extention. it will installed in your browser
+3. visit linkeding messaging page : https://www.linkedin.com/messaging/
+4. now it will work. 
