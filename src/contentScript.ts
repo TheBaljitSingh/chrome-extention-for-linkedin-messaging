@@ -1,3 +1,31 @@
+//Use Mutation function to observe DOM change
+const chatBubbleObserver = new MutationObserver((mutations) => {
+    const chatBubbleContent = document.querySelector('.msg-overlay-list-bubble__default-conversation-container');
+    if (chatBubbleContent) {
+        // ChatBubbleContent found, keep watching for messageInputBox
+        const messageInputObserver = new MutationObserver((mutations) => {
+            const messageInput = document.querySelector('.msg-form__contenteditable[contenteditable="true"]');
+            if (messageInput) {
+                // messageInput found, create and append the SVG icon
+                createSvgInMessageInputBox();
+                messageInputObserver.disconnect();
+            }
+        });
+        messageInputObserver.observe(chatBubbleContent, {
+            childList: true,
+            subtree: true
+        });
+        chatBubbleObserver.disconnect();
+    }
+});
+chatBubbleObserver.observe(document.body, {
+    childList: true,
+    subtree: true
+});
+
+
+
+
 function createSvgInMessageInputBox(): void {
     const existingIcon: Element | null = document.querySelector('#my-custom-icon');
     if (existingIcon) {
